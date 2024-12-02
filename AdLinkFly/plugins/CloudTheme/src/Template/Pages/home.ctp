@@ -5,7 +5,7 @@ $this->assign('content_title', get_option('site_name'));
 ?>
 
 <!-- Header -->
-<header class="shorten">
+<header class="shorten" style="background: linear-gradient(to right, #011E28, #013543, #011E28);">
     <div class="section-inner">
         <div class="container">
             <div class="intro-text">
@@ -29,19 +29,19 @@ $this->assign('content_title', get_option('site_name'));
             <div class="col-sm-4">
                 <div class="step step1">
                     <div class="step-img"><i class="ms-sprite ms-sprite-step1"></i></div>
-                    <h4 class="step-heading"><?= __('Create an account') ?></h4>
+                    <h4 style="color:#011E28" class="step-heading"><?= __('Create an account') ?></h4>
                 </div>
             </div>
             <div class="col-sm-4">
                 <div class="step step2">
                     <div class="step-img"><i class="ms-sprite ms-sprite-step2"></i></div>
-                    <h4 class="step-heading"><?= __('Shorten your link') ?></h4>
+                    <h4 style="color:#011E28" class="step-heading"><?= __('Shorten your link') ?></h4>
                 </div>
             </div>
             <div class="col-sm-4">
                 <div class="step step3">
                     <div class="step-img"><i class="ms-sprite ms-sprite-step3"></i></div>
-                    <h4 class="step-heading"><?= __('Earn Money') ?></h4>
+                    <h4 style="color:#011E28" class="step-heading"><?= __('Earn Money') ?></h4>
                 </div>
             </div>
         </div>
@@ -53,18 +53,18 @@ $this->assign('content_title', get_option('site_name'));
     <div class="container"></div>
 </div>
 
-<section class="features">
+<section class="features" style="background: linear-gradient(to right, #011E28, #013543, #011E28);">
     <div class="container text-center">
         <div class="section-title wow bounceIn">
-            <h3 class="section-subheading"><?= __('Earn extra money') ?></h3>
-            <h2 class="section-heading"><?= __('Why join us?') ?></h2>
+            <h3 style="color:#fff" class="section-subheading"><?= __('Earn extra money') ?></h3>
+            <h2  style="color:#fff" class="section-heading"><?= __('Why join us?') ?></h2>
         </div>
 
         <div style="display: flex; flex-wrap: wrap;">
             <div class="col-sm-4 wow fadeInUp">
                 <div class="feature">
                     <div class="feature-img"><i class="ms-sprite ms-sprite-f1"></i></div>
-                    <h4 class="feature-heading"><?= __('What is {0}?', h(get_option('site_name'))) ?></h4>
+                    <h4 style="color:#fff" class="feature-heading"><?= __('What is {0}?', h(get_option('site_name'))) ?></h4>
                     <div
                         class="feature-content"><?= __('{0} is a completely free tool where you can create short links, which apart from being free, you get paid! So, now you can make money from home, when managing and protecting your links.',
                             h(get_option('site_name'))) ?></div>
@@ -74,7 +74,7 @@ $this->assign('content_title', get_option('site_name'));
             <div class="col-sm-4 wow fadeInUp">
                 <div class="feature">
                     <div class="feature-img"><i class="ms-sprite ms-sprite-f2"></i></div>
-                    <h4 class="feature-heading"><?= __('How and how much do I earn?') ?></h4>
+                    <h4 style="color:#fff" class="feature-heading"><?= __('How and how much do I earn?') ?></h4>
                     <div
                         class="feature-content"><?= __("How can you start making money with {0}? It's just 3 steps: create an account, create a link and post it - for every visit, you earn money. It's just that easy!",
                             h(get_option('site_name'))) ?></div>
@@ -85,7 +85,7 @@ $this->assign('content_title', get_option('site_name'));
                 <div class="col-sm-4 wow fadeInUp">
                     <div class="feature">
                         <div class="feature-img"><i class="ms-sprite ms-sprite-f3"></i></div>
-                        <h4 class="feature-heading"><?= __('{0}% Referral Bonus',
+                        <h4 style="color:#fff" class="feature-heading"><?= __('{0}% Referral Bonus',
                                 h(get_option('referral_percentage'))) ?></h4>
                         <div
                             class="feature-content"><?= __('The {0} referral program is a great way to spread the word of this great service and to earn even more money with your short links! Refer friends and receive {1}% of their earnings for life!',
@@ -94,60 +94,66 @@ $this->assign('content_title', get_option('site_name'));
                 </div>
             <?php endif; ?>
 
-            <div class="col-sm-4 wow fadeInUp">
+            <!-- <div class="col-sm-4 wow fadeInUp">
                 <div class="feature">
                     <div class="feature-img"><i class="ms-sprite ms-sprite-f4"></i></div>
                     <h4 class="feature-heading"><?= __('Featured Administration Panel') ?></h4>
                     <div
                         class="feature-content"><?= __('Control all of the features from the administration panel with a click of a button.') ?></div>
                 </div>
+            </div> -->
+
+            <div class="col-sm-4 wow fadeInUp">
+                <div class="feature last">
+                    <div class="feature-img"><i class="ms-sprite ms-sprite-f7"></i></div>
+                    <h4 style="color:#fff" class="feature-heading"><?= __('Highest Rates') ?></h4>
+                    <div
+                        class="feature-content"><?= __('Make the most out of your traffic with our always increasing rates.') ?></div>
+                </div>
             </div>
+
+
 
             <div class="col-sm-4 wow fadeInUp">
                 <div class="feature">
                     <div class="feature-img"><i class="ms-sprite ms-sprite-f5"></i></div>
-                    <h4 class="feature-heading"><?= __('Detailed Stats') ?></h4>
+                    <h4 style="color:#fff" class="feature-heading"><?= __('Detailed Stats') ?></h4>
                     <div
                         class="feature-content"><?= __('Know your audience. Analyse in detail what brings you the most income and what strategies you should adapt.') ?></div>
                 </div>
             </div>
 
             <div class="col-sm-4 wow fadeInUp">
+                <div class="feature last">
+                    <div class="feature-img"><i class="ms-sprite ms-sprite-f9"></i></div>
+                    <h4 style="color:#fff" class="feature-heading"><?= __('Support') ?></h4>
+                    <div
+                        class="feature-content"><?= __('A dedicated support team is ready to help with any questions you may have.') ?></div>
+                </div>
+            </div>
+
+            <!-- <div class="col-sm-4 wow fadeInUp">
                 <div class="feature">
                     <div class="feature-img"><i class="ms-sprite ms-sprite-f6"></i></div>
                     <h4 class="feature-heading"><?= __('Low Minimum Payout') ?></h4>
                     <div
                         class="feature-content"><?= __('You are required to earn only {0} before you will be paid. We can pay all users via their PayPal.',
                             display_price_currency(get_option('minimum_withdrawal_amount'))) ?></div>
-                </div>
+                </div> -->
             </div>
 
-            <div class="col-sm-4 wow fadeInUp">
-                <div class="feature last">
-                    <div class="feature-img"><i class="ms-sprite ms-sprite-f7"></i></div>
-                    <h4 class="feature-heading"><?= __('Highest Rates') ?></h4>
-                    <div
-                        class="feature-content"><?= __('Make the most out of your traffic with our always increasing rates.') ?></div>
-                </div>
-            </div>
+         
 
-            <div class="col-sm-4 wow fadeInUp">
+            <!-- <div class="col-sm-4 wow fadeInUp">
                 <div class="feature last">
                     <div class="feature-img"><i class="ms-sprite ms-sprite-f8"></i></div>
                     <h4 class="feature-heading"><?= __('API') ?></h4>
                     <div
                         class="feature-content"><?= __('Shorten links more quickly with easy to use API and bring your creative and advanced ideas to life.') ?></div>
                 </div>
-            </div>
+            </div> -->
 
-            <div class="col-sm-4 wow fadeInUp">
-                <div class="feature last">
-                    <div class="feature-img"><i class="ms-sprite ms-sprite-f9"></i></div>
-                    <h4 class="feature-heading"><?= __('Support') ?></h4>
-                    <div
-                        class="feature-content"><?= __('A dedicated support team is ready to help with any questions you may have.') ?></div>
-                </div>
-            </div>
+           
         </div>
     </div>
 </section>
@@ -165,8 +171,8 @@ $this->cell('Testimonial', [], [
     <section class="stats">
         <div class="container">
             <div class="section-title text-center wow bounceIn">
-                <h3 class="section-subheading"><?= __("Numbers speak for themselves") ?></h3>
-                <h2 class="section-heading"><?= __('Fast Growing') ?></h2>
+              
+                <h2 style="color:#011E28" class="section-heading"><?= __('Fast Growing') ?></h2>
             </div>
             <div class="row">
                 <div class="col-sm-4 text-center">
@@ -174,10 +180,10 @@ $this->cell('Testimonial', [], [
                         <div class="stat-img">
                             <i class="ms-sprite ms-sprite-total-clicks"></i>
                         </div>
-                        <div class="stat-num">
+                        <div class="stat-num" style="color:#011E28">
                             <?= $totalClicks ?>
                         </div>
-                        <div class="stat-text">
+                        <div class="stat-text" style="color:#011E28">
                             <?= __("Total Clicks") ?>
                         </div>
                     </div>
@@ -187,10 +193,10 @@ $this->cell('Testimonial', [], [
                         <div class="stat-img">
                             <i class="ms-sprite ms-sprite-total-links"></i>
                         </div>
-                        <div class="stat-num">
+                        <div class="stat-num" style="color:#011E28">
                             <?= $totalLinks ?>
                         </div>
-                        <div class="stat-text">
+                        <div class="stat-text" style="color:#011E28">
                             <?= __("Total Links") ?>
                         </div>
                     </div>
@@ -200,10 +206,10 @@ $this->cell('Testimonial', [], [
                         <div class="stat-img">
                             <i class="ms-sprite ms-sprite-total-users"></i>
                         </div>
-                        <div class="stat-num">
+                        <div class="stat-num" style="color:#011E28">
                             <?= $totalUsers ?>
                         </div>
-                        <div class="stat-text">
+                        <div class="stat-text" style="color:#011E28">
                             <?= __("Registered users") ?>
                         </div>
                     </div>
@@ -218,7 +224,7 @@ $this->cell('Testimonial', [], [
 </div>
 
 <!-- Contact Section -->
-<section id="contact">
+<!-- <section id="contact">
     <div class="container">
         <div class="section-title text-center wow bounceIn">
             <h3 class="section-subheading"><?= __("Contact Us") ?></h3>
@@ -228,4 +234,4 @@ $this->cell('Testimonial', [], [
         <?= $this->element('contact'); ?>
 
     </div>
-</section>
+</section> -->
